@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int N,result=0;
+    int i=0;
+    cin >> N; // N is an integer
+    for(i=0;i<=N;i++){
+        if(i*i<=N) result+=i*i;
+    }
+    cout << result << endl; // result is the sum of interest
+    return 0;
+}
